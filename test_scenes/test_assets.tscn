@@ -1,0 +1,29 @@
+[gd_scene load_steps=6 format=3 uid="uid://jr106dqbdawx"]
+
+[ext_resource type="Texture2D" uid="uid://bfskdnok2pijj" path="res://addons/Tiny Swords/Factions/Knights/Troops/Warrior/Red/Warrior_Red.png" id="1_f6cau"]
+[ext_resource type="Texture2D" uid="uid://bq1rdnmn250ko" path="res://addons/Tiny Swords/Factions/Knights/Troops/Pawn/Blue/Pawn_Blue.png" id="2_qqj04"]
+[ext_resource type="Texture2D" uid="uid://dkeplrqi2d1oc" path="res://addons/Tiny Swords/Resources/Sheep/HappySheep_All.png" id="3_7t28k"]
+[ext_resource type="Texture2D" uid="uid://dec8jgpck5mgr" path="res://addons/Tiny Swords/Factions/Goblins/Troops/Torch/Purple/Torch_Purple.png" id="4_wsm2x"]
+[ext_resource type="Texture2D" uid="uid://p2jk5p0q8yek" path="res://addons/Tiny Swords/Resources/Resources/M_Spawn.png" id="5_hrdby"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="WarriorRed" type="Sprite2D" parent="."]
+position = Vector2(1302, 549)
+texture = ExtResource("1_f6cau")
+
+[node name="PawnBlue" type="Sprite2D" parent="."]
+position = Vector2(-1272, -203)
+texture = ExtResource("2_qqj04")
+
+[node name="HappySheepAll" type="Sprite2D" parent="."]
+position = Vector2(-745, 595)
+texture = ExtResource("3_7t28k")
+
+[node name="TorchPurple" type="Sprite2D" parent="."]
+position = Vector2(-1158, 1237)
+texture = ExtResource("4_wsm2x")
+
+[node name="MSpawn" type="Sprite2D" parent="."]
+position = Vector2(-1815, 547)
+texture = ExtResource("5_hrdby")
