@@ -1,11 +1,11 @@
 [gd_scene load_steps=15 format=3 uid="uid://cbsdoduc70cb"]
 
-[ext_resource type="Script" path="res://enemies/enemy.gd" id="1_x5iqf"]
-[ext_resource type="PackedScene" uid="uid://d1lhfcruqtqem" path="res://misc/skull.tscn" id="2_xq5hg"]
-[ext_resource type="PackedScene" uid="uid://clynjbjbwqtk2" path="res://misc/meat.tscn" id="3_2vxmt"]
+[ext_resource type="Script" path="res://scripts/enemy.gd" id="1_x5iqf"]
+[ext_resource type="PackedScene" uid="uid://d1lhfcruqtqem" path="res://scenes/skull.tscn" id="2_xq5hg"]
+[ext_resource type="PackedScene" uid="uid://clynjbjbwqtk2" path="res://scenes/meat.tscn" id="3_2vxmt"]
 [ext_resource type="Texture2D" uid="uid://dec8jgpck5mgr" path="res://addons/Tiny Swords/Factions/Goblins/Troops/Torch/Purple/Torch_Purple.png" id="3_5a082"]
-[ext_resource type="PackedScene" uid="uid://b863q05vu28f" path="res://misc/golden_meat.tscn" id="4_rmjhw"]
-[ext_resource type="Script" path="res://enemies/behaviors/follow_player.gd" id="4_wdomv"]
+[ext_resource type="PackedScene" uid="uid://b863q05vu28f" path="res://scenes/golden_meat.tscn" id="4_rmjhw"]
+[ext_resource type="Script" path="res://scripts/follow_player.gd" id="4_wdomv"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_wwdr6"]
 atlas = ExtResource("3_5a082")
