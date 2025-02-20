@@ -3,7 +3,6 @@ extends Node
 
 @export var game_ui: CanvasLayer
 @export var game_over_ui_template: PackedScene
-@export var sounds: Array[AudioStreamWAV]
 
 
 @onready var sound = $Sound
