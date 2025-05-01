@@ -1,11 +1,12 @@
 [gd_scene load_steps=8 format=3 uid="uid://cr1ho6u7t616c"]
 
-[ext_resource type="Script" path="res://scripts/damage_digit.gd" id="1_f5rr7"]
+[ext_resource type="Script" uid="uid://j2n50yilr2wo" path="res://scripts/damage_digit.gd" id="1_f5rr7"]
 [ext_resource type="AudioStream" uid="uid://dyu38ttsfrqc4" path="res://songs/dano.wav" id="2_h08l2"]
 
 [sub_resource type="SystemFont" id="SystemFont_llkkl"]
 font_names = PackedStringArray("Goudy Stout")
 font_weight = 999
+subpixel_positioning = 0
 
 [sub_resource type="LabelSettings" id="LabelSettings_3du63"]
 font = SubResource("SystemFont_llkkl")
@@ -108,8 +109,8 @@ tracks/3/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_qhlgf"]
 _data = {
-"RESET": SubResource("Animation_mlwx8"),
-"default": SubResource("Animation_ckmty")
+&"RESET": SubResource("Animation_mlwx8"),
+&"default": SubResource("Animation_ckmty")
 }
 
 [node name="DamageDigit" type="Node2D"]

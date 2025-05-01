@@ -1,7 +1,7 @@
 [gd_scene load_steps=11 format=3 uid="uid://kqb5rjaqp5fh"]
 
 [ext_resource type="Texture2D" uid="uid://bntwco4s221sx" path="res://addons/Kenny Particle Pack/light_02.png" id="1_cg1qa"]
-[ext_resource type="Script" path="res://scripts/ritual.gd" id="1_xigam"]
+[ext_resource type="Script" uid="uid://dp50fowtyrctk" path="res://scripts/ritual.gd" id="1_xigam"]
 [ext_resource type="Texture2D" uid="uid://dudrirhl2l8bt" path="res://addons/Kenny Particle Pack/circle_03.png" id="2_m4vjr"]
 [ext_resource type="Texture2D" uid="uid://yhr6jmwbl1k4" path="res://addons/Kenny Particle Pack/magic_02.png" id="3_qek6q"]
 [ext_resource type="AudioStream" uid="uid://dosmt1jhj0agm" path="res://songs/ritual.wav" id="5_bskys"]
@@ -175,8 +175,8 @@ tracks/6/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_ck6rx"]
 _data = {
-"RESET": SubResource("Animation_7ibdx"),
-"default": SubResource("Animation_yceel")
+&"RESET": SubResource("Animation_7ibdx"),
+&"default": SubResource("Animation_yceel")
 }
 
 [sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_0juto"]

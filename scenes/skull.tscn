@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://dsdac3jwfeie5" path="res://addons/Tiny Swords/Factions/Knights/Troops/Dead/Dead.png" id="1_8u61v"]
 [ext_resource type="AudioStream" uid="uid://dl3xor3aymq3f" path="res://songs/morte.wav" id="2_brrva"]
-[ext_resource type="Script" path="res://scripts/skull.gd" id="2_gpo4w"]
+[ext_resource type="Script" uid="uid://bcjqu83y2snvs" path="res://scripts/skull.gd" id="2_gpo4w"]
 
 [sub_resource type="Animation" id="Animation_2o6u5"]
 length = 0.001
@@ -51,8 +51,8 @@ tracks/1/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_i3mgd"]
 _data = {
-"RESET": SubResource("Animation_2o6u5"),
-"default": SubResource("Animation_yqgtl")
+&"RESET": SubResource("Animation_2o6u5"),
+&"default": SubResource("Animation_yqgtl")
 }
 
 [node name="Skull" type="Sprite2D"]

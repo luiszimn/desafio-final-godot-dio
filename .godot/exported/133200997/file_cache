@@ -1,0 +1,16 @@
+res://enemies/goblin.tscn::0fc2cc56cb7db423054341d15854639c::1746061150::res://.godot/exported/133200997/export-115a008455323c8c81aa61540d935a82-goblin.scn
+res://enemies/pawn.tscn::11981a8f736e3d9fc13e90c18a60f262::1746061151::res://.godot/exported/133200997/export-0f800c0a35ea1b47ace29670b27a8290-pawn.scn
+res://enemies/sheep.tscn::84d3e50dcdcb5d4f05eaddcb15905570::1746061151::res://.godot/exported/133200997/export-05403ed2074d320a323bfd06a502e3a4-sheep.scn
+res://Player/player.tscn::7c5d3ebc2fafddc8db6c65dcc98f3a9a::1746061151::res://.godot/exported/133200997/export-d267b47f7e81a3258979164d56d0d9c2-player.scn
+res://scenes/big_skull.tscn::9e9b0f8ff565ea8444496c43d682d99b::1746061152::res://.godot/exported/133200997/export-13cf3a534aff2923fb56caa6513d8828-big_skull.scn
+res://scenes/damage_digit.tscn::bfc7022f18c50bfb92b9ed9f358e98fb::1746061152::res://.godot/exported/133200997/export-3e14df597f3dc131a7bf7b3d9d70bf7b-damage_digit.scn
+res://scenes/game_over_ui.tscn::3cb96dcbd84265252a8491776062b759::1746062546::res://.godot/exported/133200997/export-c45fb998c15a03aff25c75788554bac7-game_over_ui.scn
+res://scenes/game_ui.tscn::44b69ce38d31f71e63717749536a1f6d::1746061153::res://.godot/exported/133200997/export-b1dc3a39ca5bc4d3f22bdf9178299c50-game_ui.scn
+res://scenes/golden_meat.tscn::904684c605c8b76853c42e17d92af430::1746061153::res://.godot/exported/133200997/export-74fbbc2536085812b6304b36fd7ae659-golden_meat.scn
+res://scenes/main.tscn::6c0228a61450f94cfde6387f486bce7e::1746062546::res://.godot/exported/133200997/export-3ad5c15c4f3250da0cc7c1af1770d85f-main.scn
+res://scenes/meat.tscn::fcdb7291dfb003a0bdeba52b5834d38a::1746061154::res://.godot/exported/133200997/export-052a0182449695cf0207aa1154357d02-meat.scn
+res://scenes/menu.tscn::05c0d2d31b229a1ae4542a31a2fc39b6::1746062546::res://.godot/exported/133200997/export-1ce5c86e8ca186dcaaeaa8726f1268db-menu.scn
+res://scenes/mob_spawner.tscn::5b6e6507dcaa8db9fd0316f26cbb4fe5::1746061155::res://.godot/exported/133200997/export-efd31166f24020ca0d0b64bc4355b5df-mob_spawner.scn
+res://scenes/ritual.tscn::5e34f79cd677f2752929a8d743232030::1746061155::res://.godot/exported/133200997/export-c1c55183de2b33d7f1a204d0c4aa517b-ritual.scn
+res://scenes/skull.tscn::b7425548efbb6c1676d750ccec0c52a3::1746061155::res://.godot/exported/133200997/export-91d7c2f07eb0889759918e5d181693a0-skull.scn
+res://scenes/tree.tscn::6992e02f3dbd3f5be57f1060f5b9fa4b::1746061156::res://.godot/exported/133200997/export-a9120a52d578fc4f9832f17b0458a97d-tree.scn

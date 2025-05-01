@@ -1,6 +1,6 @@
 [gd_scene load_steps=19 format=3 uid="uid://ruhbbmvtyvs1"]
 
-[ext_resource type="Script" path="res://scripts/game_over_ui.gd" id="1_fln5u"]
+[ext_resource type="Script" uid="uid://c0c4y5xjsalg8" path="res://scripts/game_over_ui.gd" id="1_fln5u"]
 [ext_resource type="Texture2D" uid="uid://dsmva88p3x63f" path="res://addons/Tiny Swords/UI/Ribbons/Ribbon_Red_3Slides.png" id="1_hcr5m"]
 [ext_resource type="Texture2D" uid="uid://trotbwp1bspd" path="res://addons/Tiny Swords/UI/Banners/Banner_Horizontal.png" id="2_iunnr"]
 [ext_resource type="AudioStream" uid="uid://bfr35s45o1xv0" path="res://songs/game_over.wav" id="4_sqrcc"]
@@ -199,9 +199,9 @@ tracks/3/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_3med3"]
 _data = {
-"RESET": SubResource("Animation_ye6xx"),
-"default": SubResource("Animation_fuaua"),
-"show_buttons": SubResource("Animation_fsost")
+&"RESET": SubResource("Animation_ye6xx"),
+&"default": SubResource("Animation_fuaua"),
+&"show_buttons": SubResource("Animation_fsost")
 }
 
 [sub_resource type="LabelSettings" id="LabelSettings_gqtp7"]
@@ -307,11 +307,11 @@ label_settings = SubResource("LabelSettings_1r7bd")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
-"": SubResource("AnimationLibrary_3med3")
+&"": SubResource("AnimationLibrary_3med3")
 }
 autoplay = "show_buttons"
 
-[node name="GameOver" type="AudioStreamPlayer2D" parent="."]
+[node name="GameOver" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("4_sqrcc")
 
 [node name="Click" type="AudioStreamPlayer" parent="."]

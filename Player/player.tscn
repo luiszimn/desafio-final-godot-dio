@@ -1,7 +1,7 @@
 [gd_scene load_steps=23 format=3 uid="uid://06qisans0s61"]
 
 [ext_resource type="Texture2D" uid="uid://bfskdnok2pijj" path="res://addons/Tiny Swords/Factions/Knights/Troops/Warrior/Red/Warrior_Red.png" id="1_lduda"]
-[ext_resource type="Script" path="res://scripts/player.gd" id="1_um3qs"]
+[ext_resource type="Script" uid="uid://bh87th8fqhqcm" path="res://scripts/player.gd" id="1_um3qs"]
 [ext_resource type="PackedScene" uid="uid://bpb0nw1au7vst" path="res://scenes/big_skull.tscn" id="2_d7man"]
 [ext_resource type="PackedScene" uid="uid://kqb5rjaqp5fh" path="res://scenes/ritual.tscn" id="2_esa38"]
 [ext_resource type="AudioStream" uid="uid://cclyevqbbnloi" path="res://songs/sword.wav" id="5_vmfxc"]
@@ -242,15 +242,15 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_3ji8r"]
 _data = {
-"RESET": SubResource("Animation_740o5"),
-"attack_down1": SubResource("Animation_di6cj"),
-"attack_down2": SubResource("Animation_2lbvi"),
-"attack_side1": SubResource("Animation_k8lfo"),
-"attack_side2": SubResource("Animation_mii4t"),
-"attack_up1": SubResource("Animation_hgyqc"),
-"attack_up2": SubResource("Animation_gscvf"),
-"idle": SubResource("Animation_fxeqv"),
-"run": SubResource("Animation_vipcy")
+&"RESET": SubResource("Animation_740o5"),
+&"attack_down1": SubResource("Animation_di6cj"),
+&"attack_down2": SubResource("Animation_2lbvi"),
+&"attack_side1": SubResource("Animation_k8lfo"),
+&"attack_side2": SubResource("Animation_mii4t"),
+&"attack_up1": SubResource("Animation_hgyqc"),
+&"attack_up2": SubResource("Animation_gscvf"),
+&"idle": SubResource("Animation_fxeqv"),
+&"run": SubResource("Animation_vipcy")
 }
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_7mml5"]

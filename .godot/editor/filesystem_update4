@@ -1,0 +1,17 @@
+res://enemies/goblin.tscn
+res://enemies/pawn.tscn
+res://enemies/sheep.tscn
+res://Player/player.tscn
+res://scenes/big_skull.tscn
+res://scenes/damage_digit.tscn
+res://scenes/game_over_ui.tscn
+res://scenes/game_ui.tscn
+res://scenes/golden_meat.tscn
+res://scenes/main.tscn
+res://scenes/meat.tscn
+res://scenes/menu.tscn
+res://scenes/mob_spawner.tscn
+res://scenes/ritual.tscn
+res://scenes/skull.tscn
+res://scenes/tree.tscn
+res://scripts/menu.gd

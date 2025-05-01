@@ -1,10 +1,10 @@
 [gd_scene load_steps=14 format=3 uid="uid://3rq6ltpwmclj"]
 
-[ext_resource type="Script" path="res://scripts/enemy.gd" id="1_xbbey"]
+[ext_resource type="Script" uid="uid://bdg41rcrtejia" path="res://scripts/enemy.gd" id="1_xbbey"]
 [ext_resource type="PackedScene" uid="uid://d1lhfcruqtqem" path="res://scenes/skull.tscn" id="2_0smla"]
 [ext_resource type="PackedScene" uid="uid://clynjbjbwqtk2" path="res://scenes/meat.tscn" id="3_fdxgp"]
 [ext_resource type="Texture2D" uid="uid://ce70nysw3nvs0" path="res://addons/Tiny Swords/Resources/Sheep/HappySheep_Bouncing.png" id="3_uupn1"]
-[ext_resource type="Script" path="res://scripts/follow_player.gd" id="4_ddhtl"]
+[ext_resource type="Script" uid="uid://bme0rd7bi0ihs" path="res://scripts/follow_player.gd" id="4_ddhtl"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_gn04i"]
 atlas = ExtResource("3_uupn1")
